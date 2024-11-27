@@ -1,0 +1,29 @@
+h1, address{
+    background-color: aquamarine;
+}
+div{
+    border-color: chartreuse;
+    border-width: 5px;
+    border-style: dashed;
+}
+div{
+    margin: 50px;
+    padding: 50%;
+
+div.d2{
+border: cornflowerblue;
+border-image-source: url(*la imagen );
+text-align: center;
+}
+p{
+letter-spacing: 9px;
+}
+mark{
+
+}
+ul{
+
+}
+li{
+    
+}

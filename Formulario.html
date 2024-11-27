@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<title>Formulario</title>
+</head>
+<body>
+<form action="">
+    <label for="nombre">
+        Nombre<input type="text" name="nombre" id="nombre">
+    </label>
+    <label for="apellidos"></label>
+        Apellidos<input type="text" name="apellidos" id="apellidos">
+    </label>
+    <input type="submit" value="Enviar">
+    <input type="reset"  value="Borrar">
+    <button type="submit">
+     <img src="" alt="imagen" width="32" height="32" style="vertical-align: middle;">
+     Enviar   
+    </button>
+    <label for="frase">
+        Completa la frase:<input type="text" name="frase" id="frase" value="En un lugar de la mancha">
+    </label>
+    <br>
+    <label for="contraseña">
+        Contraseña<input type="password" name="" id="contraseña">
+    </label>
+    <br>
+    <label for="numfav">
+    Fecha de nacimiento<input type="date" name=numfav id="numfav">
+    </label>
+        Edad<input type="number" name=numfav id="numfav">
+    <label for="Hora de Entrada">
+    Fecha de nacimiento<input type="time" name=Hora id="numfav">
+    </label>
+    <br><br>
+    <label for="Teletrabajo">
+        Teletrabajo (si o no)<input type="checkbox" name=Teletrabajo id="Teletrabajo">
+    </label>
+    <br>
+    Turno:
+    <br>
+    <input type="radio" name="boton1" value="1">Opción1<br>
+    <input type="radio" name="boton1" value="2">Opción2<br>
+    <input type="radio" name="boton1" value="3">Opción3
+<br>
+    Color favorito: < <input type="color" name="color" value="1">
+    <br>
+    <label>
+    Elige un numero (valor de 1 a 8)<input type="range" name="rango"
+    min="0" max="8" step="1">
+    </label>
+    <br>
+    Que le parece su experienza<input type="range" name="rango" id min="1" max="10" list="Lista">
+    <datalist id="Lista">
+        <option value="1" label="Malo"></option>
+        <option value="5" label="Medio"></option>
+        <option value="10" label="Alto"></option>
+    </datalist>
+    <br>
+    <textarea name="texto" rows="4" cols="20"></textarea>
+    <br>
+<select name="menu">
+<option>Uno</option>
+<option></option>
+
+</select>
+</form>
+
+</body>
+</html>
